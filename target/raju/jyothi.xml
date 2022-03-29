@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="0.571">
+    <testcase classname="FB login page" name="FB - Login validation with Multiple data" time="0.022">
+        <system-out><![CDATA[Given user opens the chrome browser.........................................passed
+When user enters the url....................................................passed
+Then FB login page is displayed.............................................passed
+When user enters "pradeep@gmail.com" and password is "password123"..........passed
+When user clicks on login button............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="FB login page" name="FB - Login validation with Multiple data 2" time="0.006">
+        <system-out><![CDATA[Given user opens the chrome browser.........................................passed
+When user enters the url....................................................passed
+Then FB login page is displayed.............................................passed
+When user enters "raju@gmail.com" and password is "password123".............passed
+When user clicks on login button............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="FB login page" name="FB - Login validation with Multiple data 3" time="0.003">
+        <system-out><![CDATA[Given user opens the chrome browser.........................................passed
+When user enters the url....................................................passed
+Then FB login page is displayed.............................................passed
+When user enters "pradeep1234@gmail.com" and password is "password123"......passed
+When user clicks on login button............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="FB login page" name="FB - Login validation with Multiple data 4" time="0.004">
+        <system-out><![CDATA[Given user opens the chrome browser.........................................passed
+When user enters the url....................................................passed
+Then FB login page is displayed.............................................passed
+When user enters "jyothi@gmail.com" and password is "password123"...........passed
+When user clicks on login button............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="FB login page" name="To validate URL of the practice form" time="0.048">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.chrome.ChromeDriver.get(String)&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given user opens the chrome browser.........................................passed
+When user enteres url.......................................................failed
+Then user able to see practice form.........................................skipped
+And user verifies Practice Form and Student Registration Form text..........skipped
+And jyothi wants new step...................................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.chrome.ChromeDriver.get(String)" because "this.driver" is null
+	at stepdefinitions.LoginPageStepDef.user_enteres_url(LoginPageStepDef.java:29)
+	at ✽.user enteres url(file:///C:/Users/marri/OneDrive/Desktop/JyothiRaj/Code/ToolsQAPracticeForm/src/test/java/features/LoginScenaioOutline2.feature:21)
+]]></failure>
+    </testcase>
+    <testcase classname="FB login page" name="To validate URL of the practice form 2" time="0.004">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.chrome.ChromeDriver.get(String)&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given user opens the chrome browser.........................................passed
+When user enteres url.......................................................failed
+Then user able to see practice form.........................................skipped
+And user verifies Practice Form and Student Registration Form text..........skipped
+And raju wants new step.....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.chrome.ChromeDriver.get(String)" because "this.driver" is null
+	at stepdefinitions.LoginPageStepDef.user_enteres_url(LoginPageStepDef.java:29)
+	at ✽.user enteres url(file:///C:/Users/marri/OneDrive/Desktop/JyothiRaj/Code/ToolsQAPracticeForm/src/test/java/features/LoginScenaioOutline2.feature:30)
+]]></failure>
+    </testcase>
+    <testcase classname="FB login page" name="To validate URL of the practice form 3" time="0.003">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.chrome.ChromeDriver.get(String)&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given user opens the chrome browser.........................................passed
+When user enteres url.......................................................failed
+Then user able to see practice form.........................................skipped
+And user verifies Practice Form and Student Registration Form text..........skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.chrome.ChromeDriver.get(String)" because "this.driver" is null
+	at stepdefinitions.LoginPageStepDef.user_enteres_url(LoginPageStepDef.java:29)
+	at ✽.user enteres url(file:///C:/Users/marri/OneDrive/Desktop/JyothiRaj/Code/ToolsQAPracticeForm/src/test/java/features/LoginScenaioOutline2.feature:38)
+]]></failure>
+    </testcase>
+    <testcase classname="FB login page" name="To validate URL of the practice form 4" time="0.003">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.chrome.ChromeDriver.get(String)&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given user opens the chrome browser.........................................passed
+When user enteres url.......................................................failed
+Then user able to see practice form.........................................skipped
+And user verifies Practice Form and Student Registration Form text..........skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.chrome.ChromeDriver.get(String)" because "this.driver" is null
+	at stepdefinitions.LoginPageStepDef.user_enteres_url(LoginPageStepDef.java:29)
+	at ✽.user enteres url(file:///C:/Users/marri/OneDrive/Desktop/JyothiRaj/Code/ToolsQAPracticeForm/src/test/java/features/LoginScenaioOutline2.feature:46)
+]]></failure>
+    </testcase>
+</testsuite>
